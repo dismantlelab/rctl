@@ -327,6 +327,6 @@ if __name__ == "__main__":
     print(f"Uvicorn API server started in background thread. Root: {SERVER_ROOT}")
     try:
         while True:
-            time.sleep(1):
+            time.sleep(1)
     except Keyboard Interrupt:
         print("\nStopping API Server")
